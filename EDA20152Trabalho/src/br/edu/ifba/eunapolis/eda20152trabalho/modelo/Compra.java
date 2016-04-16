@@ -55,4 +55,11 @@ public class Compra {
         throw new UnsupportedOperationException("Método ainda não implemntado");
     }
 
+    @Override
+    public String toString() {
+        return "Compra{" + "nome=" + nome + ", CPF=" + CPF + ", dataCompra=" + dataCompra + '}';
+    }
+    
+    
+
 }

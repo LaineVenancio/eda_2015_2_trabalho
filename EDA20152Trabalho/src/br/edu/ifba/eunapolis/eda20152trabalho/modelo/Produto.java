@@ -44,6 +44,13 @@ public class Produto {
     public void setValor(Float valor) {
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        return "Produto{" + "codigo=" + codigo + ", nome=" + nome + ", valor=" + valor + '}';
+    }
+    
+    
     
     
 }

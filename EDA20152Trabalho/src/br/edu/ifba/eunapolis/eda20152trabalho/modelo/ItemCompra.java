@@ -38,5 +38,10 @@ public class ItemCompra {
     public Double getTotalItemCompra(){
         throw new UnsupportedOperationException("Método ainda não implemntado");
     }
+
+    @Override
+    public String toString() {
+        return "ItemCompra{" + "produto=" + produto + ", quantidade=" + quantidade + '}';
+    }
     
 }
